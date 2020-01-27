@@ -1,8 +1,5 @@
-all_odd = [1,3].all? do |number|
-  number.odd? 
-end 
-all_odd 
+require 'pry'
 
-[4, 8, 9, 984].any?{|i| i < 9842}
+def my_all?(collection)
 
-[1,2,3].detect{|i| i.odd?}
+end
